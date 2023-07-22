@@ -33,6 +33,9 @@
 					<label for="autonomia">Consumo de combustível do veículo (Km/l)</label>
 					<input type="number" class="campoTexto" name="autonomia" required/>
 
+					<label for="preco">Preço do combustível</label>
+					<input type="number" class="campoTexto" name="preco" step="0.01" required/>
+
 					<button class="botao" type="submit">Calcular</button>
 				</form>
 			</div>
